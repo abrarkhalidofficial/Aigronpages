@@ -1297,8 +1297,12 @@ body::-webkit-scrollbar-track {
   max-width: 1920px;
   margin: 0 auto;
   display: flex;
-  padding-bottom: 4em;
+  padding-bottom: 6em;
   padding-top: 4em;
+}
+.mission__section__left__img img{
+  width: 100%;
+  height: 400px;
 }
 .mission__section__left {
   width: 60%;
@@ -1431,6 +1435,15 @@ body::-webkit-scrollbar-track {
     width: 40%;
   }
 }
+@media (max-width: 900px) {
+.mission__section__left{
+  width: 50%;
+  margin: 1em;
+}
+
+
+
+}
 @media (max-width: 1150px) {
   .idea__content__info {
     margin-right: 0em;
@@ -1523,6 +1536,20 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1000px) {
+  .mission__section__right__heading{
+font-size: 35px;
+
+  }
+  .mission__section__right{
+    margin: 1em;
+  }
+  .mission__section__right__info{
+    width: 95%;
+  }
+  .mission__section__left__img img{
+    width: 100%;
+    height: 350px;
+  }
   .header__content__overlay {
     min-height: 100vh;
     padding-bottom: 5em;
@@ -1626,6 +1653,9 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 800px) {
+  .mission__section__right__heading{
+    font-size: 30px;
+  }
   .services__card {
     width: 45%;
   }
@@ -1644,6 +1674,36 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 750px) {
+ 
+  .mission__section{
+  
+    flex-direction: column;
+    width: 100%;
+  }
+  .mission__section__left{
+    width: 100%;
+    margin: 0em;
+ 
+  }
+ 
+  .mission__section__right__info{
+    width: 100%;
+    margin-top: 10px;
+padding: 0em 2em;
+
+  }
+  .mission__section__right__heading {
+    font-size: 35px;
+    text-align: center;
+
+
+  }
+
+  .mission__section__right{
+    width: 100%;
+    margin: 0em;
+    margin-top: 2em;
+  }
   .home__container__heading {
     font-size: 38px;
     width: 80%;
@@ -1746,11 +1806,28 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 500px) {
+  .mission__section__right__heading{
+font-size: 30px;
+
+  }
   .header__nav__link__btn {
     display: none;
   }
+<<<<<<< Updated upstream
   .aboutus__page__right__info {
+=======
+.mission__section__right__info{
+  padding: 0em 1em;
+  font-size: 16px;
+}
+  .mission__section__left__img img{
+    width: 100%;
+    height: 280px;
+  }
+  .aboutus__page__right__info{
+>>>>>>> Stashed changes
     width: 90%;
+    font-size: 18px;
   }
   .header__content__nav .header__nav__link__btn {
     display: flex;
