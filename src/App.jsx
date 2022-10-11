@@ -4,6 +4,7 @@ import "./App.scss";
 import "react-phone-number-input/style.css";
 import missionsection from "./assets/mission-section.png";
 import aboutusbottom from "./assets/about-us-bottom.png";
+import ourteamright from "./assets/ourteam-right.png";
 
 function App() {
   return (
@@ -53,7 +54,7 @@ function App() {
           <div className="our__team___heading">Our Team</div>
           <div className="our__team__info">
             Our team consists of talented professionals having worked for
-            international corporations. This experience and expertise are
+            international corporations. <br /> This experience and expertise are
             bundled in our global Aigron offices.
           </div>
         </div>
@@ -370,8 +371,12 @@ function App() {
               the readable content of a page when looking at its layout.
             </div>
           </div>
+        </div>{" "}
+        <div className="our__team__right__img">
+          <img src={ourteamright} alt="ourteamright" />
         </div>
       </section>
+
       <Footer />
     </>
   );

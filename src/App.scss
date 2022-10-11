@@ -1337,6 +1337,7 @@ body::-webkit-scrollbar-track {
   padding-top: 4em;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .our__team___heading {
   font-size: 40px;
@@ -1427,6 +1428,14 @@ body::-webkit-scrollbar-track {
   transform: scale(1.09);
   transition: 300ms ease-in-out;
   color: #fff;
+}
+.our__team__right__img {
+  position: absolute;
+  top: -25%;
+  right: 0;
+}
+.our__team__right__img img {
+  height: 300px;
 }
 @media (max-width: 1366px) {
   .services___Content {
