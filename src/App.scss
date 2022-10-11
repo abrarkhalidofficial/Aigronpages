@@ -1244,15 +1244,13 @@ body::-webkit-scrollbar-track {
   align-items: center;
 }
 .aboutus__page__left_text {
-
   font-size: 45px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.aboutus__page__left{
+.aboutus__page__left {
   width: 50%;
   display: flex;
 
@@ -1467,11 +1465,11 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1080px) {
-  .aboutus__page__right__info{
+  .aboutus__page__right__info {
     width: 80%;
   }
   .aboutus__page__right {
-  width: 50%;
+    width: 50%;
   }
   // .aboutus__page__left{
   //   width: 35%;
@@ -1650,22 +1648,19 @@ body::-webkit-scrollbar-track {
     font-size: 38px;
     width: 80%;
   }
-  .aboutus__page{
+  .aboutus__page {
     flex-direction: column;
-
   }
-  .aboutus__page__left{
+  .aboutus__page__left {
     width: 100%;
-   
   }
-  .aboutus__page__left_text{
+  .aboutus__page__left_text {
     font-size: 35px;
-    
   }
-  .aboutus__page__right__info{
+  .aboutus__page__right__info {
     width: 80%;
   }
-  .aboutus__page__right{
+  .aboutus__page__right {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1754,7 +1749,7 @@ body::-webkit-scrollbar-track {
   .header__nav__link__btn {
     display: none;
   }
-  .aboutus__page__right__info{
+  .aboutus__page__right__info {
     width: 90%;
   }
   .header__content__nav .header__nav__link__btn {
