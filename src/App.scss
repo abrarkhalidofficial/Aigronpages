@@ -1300,7 +1300,7 @@ body::-webkit-scrollbar-track {
   padding-bottom: 6em;
   padding-top: 4em;
 }
-.mission__section__left__img img{
+.mission__section__left__img img {
   width: 100%;
   height: 400px;
 }
@@ -1436,13 +1436,10 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 900px) {
-.mission__section__left{
-  width: 50%;
-  margin: 1em;
-}
-
-
-
+  .mission__section__left {
+    width: 50%;
+    margin: 1em;
+  }
 }
 @media (max-width: 1150px) {
   .idea__content__info {
@@ -1536,17 +1533,16 @@ body::-webkit-scrollbar-track {
   }
 }
 @media (max-width: 1000px) {
-  .mission__section__right__heading{
-font-size: 35px;
-
+  .mission__section__right__heading {
+    font-size: 35px;
   }
-  .mission__section__right{
+  .mission__section__right {
     margin: 1em;
   }
-  .mission__section__right__info{
+  .mission__section__right__info {
     width: 95%;
   }
-  .mission__section__left__img img{
+  .mission__section__left__img img {
     width: 100%;
     height: 350px;
   }
@@ -1653,7 +1649,7 @@ font-size: 35px;
   }
 }
 @media (max-width: 800px) {
-  .mission__section__right__heading{
+  .mission__section__right__heading {
     font-size: 30px;
   }
   .services__card {
@@ -1674,32 +1670,26 @@ font-size: 35px;
   }
 }
 @media (max-width: 750px) {
- 
-  .mission__section{
-  
+  .mission__section {
     flex-direction: column;
     width: 100%;
   }
-  .mission__section__left{
+  .mission__section__left {
     width: 100%;
     margin: 0em;
- 
   }
- 
-  .mission__section__right__info{
+
+  .mission__section__right__info {
     width: 100%;
     margin-top: 10px;
-padding: 0em 2em;
-
+    padding: 0em 2em;
   }
   .mission__section__right__heading {
     font-size: 35px;
     text-align: center;
-
-
   }
 
-  .mission__section__right{
+  .mission__section__right {
     width: 100%;
     margin: 0em;
     margin-top: 2em;
@@ -1806,26 +1796,22 @@ padding: 0em 2em;
   }
 }
 @media (max-width: 500px) {
-  .mission__section__right__heading{
-font-size: 30px;
-
+  .mission__section__right__heading {
+    font-size: 30px;
   }
   .header__nav__link__btn {
     display: none;
   }
-<<<<<<< Updated upstream
-  .aboutus__page__right__info {
-=======
-.mission__section__right__info{
-  padding: 0em 1em;
-  font-size: 16px;
-}
-  .mission__section__left__img img{
+
+  .mission__section__right__info {
+    padding: 0em 1em;
+    font-size: 16px;
+  }
+  .mission__section__left__img img {
     width: 100%;
     height: 280px;
   }
-  .aboutus__page__right__info{
->>>>>>> Stashed changes
+  .aboutus__page__right__info {
     width: 90%;
     font-size: 18px;
   }
@@ -1968,6 +1954,9 @@ font-size: 30px;
   .form__content__right__form {
     margin-bottom: 1.5em;
   }
+  .footer__right__input__button button {
+    margin-left: 0em;
+  }
 }
 @media (max-width: 470px) {
   .header__content__cta .header__content__cta__button {
@@ -2087,6 +2076,7 @@ font-size: 30px;
   }
   .footer__right__input__button button {
     margin-top: 3px;
+    margin-left: 0em;
   }
   .form__content__right__form__input input {
     font-size: 12px;
