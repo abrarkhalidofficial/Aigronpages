@@ -10,7 +10,13 @@ function App() {
     <>
       <Header />
       <section className="aboutus__page">
-        <div className="aboutus__page__left">About Us</div>
+      <div className="aboutus__page__left">
+      <div className="aboutus__page__left_text">
+        About Us
+        </div>
+      </div>
+  
+    
         <div className="aboutus__page__right">
           <div className="aboutus__page__right__info">
             Aigron is an AI and Data consultancy, development and recruitment
