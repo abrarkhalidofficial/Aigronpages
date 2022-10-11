@@ -1323,10 +1323,41 @@ body::-webkit-scrollbar-track {
 }
 .mission__section__right__info {
   font-size: 18px;
-  width: 85%;
+  width: 65%;
   text-align: justify;
 }
+.our__team {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 
+  padding-bottom: 4em;
+  padding-top: 4em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.our__team___heading {
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 1em;
+}
+.our__team__content {
+  text-align: center;
+  width: 100%;
+}
+.our__team__info {
+  font-size: 19px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+
+  padding-left: 4em;
+  padding-right: 4em;
+}
 @media (max-width: 1500px) {
   .expertise__content__card {
     margin: 1em;

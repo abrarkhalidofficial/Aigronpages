@@ -51,6 +51,16 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="our__team">
+        <div className="our__team__content">
+          <div className="our__team___heading">Our Team</div>
+          <div className="our__team__info">
+            Our team consists of talented professionals having worked for
+            international corporations. This experience and expertise are
+            bundled in our global Aigron offices.
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   );
