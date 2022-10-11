@@ -1233,6 +1233,93 @@ body::-webkit-scrollbar-track {
   transition: 300ms ease-in-out;
   background-color: #5378de;
 }
+.aboutus__page {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus__page__left {
+  width: 35%;
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  margin-left: 5.5em;
+  flex-direction: column;
+}
+.aboutus__page__right {
+  width: 60%;
+}
+.aboutus__page__right__info {
+  width: 60%;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 2em;
+}
+.aboutus__page__right__button button {
+  padding: 1em 3em;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #4bd899;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 300ms ease-in-out;
+}
+.aboutus__page__right__button button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #5378de;
+}
+.aboutusbottom {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+.mission__section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+.mission__section__left {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mission__section__right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.mission__section__right__heading {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.mission__section__right__info {
+  font-size: 18px;
+  width: 85%;
+  text-align: justify;
+}
 
 @media (max-width: 1500px) {
   .expertise__content__card {
