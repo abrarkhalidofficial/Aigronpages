@@ -66,3 +66,6 @@ node_modules/
 # dotenv environment variables file
 .env
 node_modules
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
