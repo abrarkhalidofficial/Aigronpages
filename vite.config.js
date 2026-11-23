@@ -5,6 +5,9 @@ import viteImagemin from "vite-plugin-imagemin";
 import viteCompression from "vite-plugin-compression";
 import { chunkSplitPlugin } from "vite-plugin-chunk-split";
 import { ViteWebfontDownload } from "vite-plugin-webfont-dl";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 // https://vitejs.dev/config/
 export default defineConfig({
